@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "surveymonkey-ios-sdk",
-            dependencies: []),
+            dependencies: ["SurveyMonkeyiOSSDK.framework"]),
         .testTarget(
             name: "surveymonkey-ios-sdkTests",
             dependencies: ["surveymonkey-ios-sdk"]),

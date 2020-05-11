@@ -112,6 +112,7 @@
 				TargetAttributes = {
 					306F17031B30E44D0061D2DA = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = SX768C9EWK;
 					};
 				};
 			};
@@ -263,6 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SX768C9EWK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Simple\\ Survey",
@@ -274,7 +276,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SurveyMonkey.SimpleSurvey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SurveyMonkey.SimpleSurvey.spmfork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -283,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SX768C9EWK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Simple\\ Survey",
@@ -294,7 +297,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SurveyMonkey.SimpleSurvey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SurveyMonkey.SimpleSurvey.spmfork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
